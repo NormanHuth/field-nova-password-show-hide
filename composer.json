@@ -1,5 +1,5 @@
 {
-    "name": "normanhuth/settings-valuestore-password-show-hide",
+    "name": "normanhuth/settings-valuestore-pwd-show-hide",
     "description": "A Laravel Nova field.",
     "keywords": [
         "laravel",
