@@ -1,17 +1,17 @@
 # field-nova-password-show-hide
 Install
 ```php
-composer require opanegro/field-nova-password-show-hide
+composer require normanhuth/field-nova-password-show-hide
 ```
 
 Usage
 ```php
-use Opanegro\FieldNovaPasswordShowHide\FieldNovaPasswordShowHide;
+use NormanHuth\PlainFieldNovaPasswordShowHide\PlainFieldNovaPasswordShowHide;
 ...
 public function fields(Request $request)
 {
     return [
-        FieldNovaPasswordShowHide::make('Password')->onlyOnForms();
+        PlainFieldNovaPasswordShowHide::make('Password')->onlyOnForms();
     ];
 }
 ```

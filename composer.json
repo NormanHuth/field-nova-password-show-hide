@@ -1,5 +1,5 @@
 {
-    "name": "opanegro/field-nova-password-show-hide",
+    "name": "normanhuth/field-nova-password-show-hide",
     "description": "A Laravel Nova field.",
     "keywords": [
         "laravel",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Opanegro\\FieldNovaPasswordShowHide\\": "src/"
+            "NormanHuth\\PlainFieldNovaPasswordShowHide\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Opanegro\\FieldNovaPasswordShowHide\\FieldServiceProvider"
+                "NormanHuth\\PlainFieldNovaPasswordShowHide\\PlainFieldServiceProvider"
             ]
         }
     },

@@ -21,13 +21,6 @@
         mixins: [FormField, HandlesValidationErrors],
         props: ['resourceName', 'resourceId', 'field'],
         methods: {
-            /*
-             * Set the initial, internal value for the field.
-             */
-            setInitialValue() {
-                // this.value = this.field.value || ''
-                this.value = ''
-            },
             /**
              * Fill the given FormData object with the field's internal value.
              */

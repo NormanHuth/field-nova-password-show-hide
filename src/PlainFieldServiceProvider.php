@@ -1,12 +1,12 @@
 <?php
 
-namespace Opanegro\FieldNovaPasswordShowHide;
+namespace NormanHuth\PlainFieldNovaPasswordShowHide;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
 use Illuminate\Support\ServiceProvider;
 
-class FieldServiceProvider extends ServiceProvider
+class PlainFieldServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any application services.
@@ -16,8 +16,8 @@ class FieldServiceProvider extends ServiceProvider
     public function boot()
     {
         Nova::serving(function (ServingNova $event) {
-            Nova::script('FieldNovaPasswordShowHide', __DIR__.'/../dist/js/field.js');
-            Nova::style('FieldNovaPasswordShowHide', __DIR__.'/../dist/css/field.css');
+            Nova::script('PlainFieldNovaPasswordShowHide', __DIR__.'/../dist/js/field.js');
+            Nova::style('PlainFieldNovaPasswordShowHide', __DIR__.'/../dist/css/field.css');
         });
     }
 
