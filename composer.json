@@ -6,6 +6,13 @@
         "nova"
     ],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Norman Huth",
+            "email": "norman@huth.it",
+            "homepage": "https://huth.it"
+        }
+    ],
     "require": {
         "php": ">=7.1.0"
     },
