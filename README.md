@@ -1,4 +1,3 @@
-Install
 ```php
-composer require normanhuth/field-nova-password-show-hide
+composer require normanhuth/settings-valuestore-pwd-show-hide
 ```
